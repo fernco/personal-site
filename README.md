@@ -1,12 +1,12 @@
 # personal-site
 
 1. Create File Structures: 
-    ├── personal_site
-│   ├── index.html
-│   ├── about.html
-│   ├── portfolio.html
-│   ├── style.css
-│   ├── javascript.js 
+    - personal_site
+    - index.html
+    - about.html
+    - portfolio.html
+    - style.css
+    - javascript.js 
 
 2. Requirements three pages: 
     1. Home
