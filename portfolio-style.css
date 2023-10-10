@@ -50,3 +50,7 @@ nav li a {
     text-decoration: none;
 }
 
+img {
+    border: 8px solid #fffafa;
+    padding: 10px; 
+}

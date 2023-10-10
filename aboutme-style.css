@@ -36,6 +36,14 @@ main {
 }
 
 /* nav bar */
+header {
+    margin: 55px;
+}
+main {
+    margin: 55px; 
+}
+
+/* nav bar */
 nav ul {
     list-style-type: none;
     padding: 20;
