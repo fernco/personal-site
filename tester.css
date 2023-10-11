@@ -9,33 +9,7 @@ body {
     
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
-    margin: 20px;
-}
-
-.grid-item {
-    text-align: center;
-    padding: 10px;
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-}
-
-img {
-    width: 100%;
-}
-
-header {
-    font-family: Arial, Helvetica, sans-serif;
-}
-main {
-    margin: 55px; 
-}
-
-/* nav bar */
+/* margin for pic & headers */
 header {
     margin: 55px;
 }
@@ -44,11 +18,11 @@ main {
 }
 
 /* nav bar */
-
 nav ul {
     list-style-type: none;
     padding: 20;
 }
+/* removed from unordered list to diagonal */
 nav ul li {
     display: inline;
     margin-right: 20px;
@@ -58,11 +32,25 @@ nav ul li {
     border-radius: 55px;
     cursor: pointer;
 }
+/* changes color when you hover */
 nav ul li:hover {
     background-color:rgb(169, 209, 169);
 }
 
+/* removes standard blue underline */
 nav li a {
     color: black;
     text-decoration: none;
 }
+
+img {
+    padding: 10px; 
+}
+
+ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: inline
+  }
