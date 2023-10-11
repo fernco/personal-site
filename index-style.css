@@ -54,4 +54,8 @@ body {
 
 img {
     border: 8px solid #fff;
+    border-radius: 0.5rem;
+    max-width:30vh;
+    display:block;
+    margin:auto;
 }

@@ -101,5 +101,52 @@ h1{
     text-align:center;
 }
 
-    
+form {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    color: #191819; 
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f6f0f5;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+form label, form input[type="text"], form input[type="email"], form input[type="submit"],form input[type="message"] {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+}
+
+
+input[type="text"],
+input[type="email"],{
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 10px;
+    border: 1px solid 237, 233, 226;
+    border-radius: 3px;
+}
+
+input[type="message"] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid 237, 233, 226;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #4d9116;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
 
