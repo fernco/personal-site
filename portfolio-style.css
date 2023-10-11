@@ -58,12 +58,6 @@ nav ul li a {
     
 }
 
-.text-box h1 {
-    font-size:45px;
-    margin-bottom: 20px;
-    color: black;
-    padding: 10px; 
-}
 
 body {
     background-color:  rgb(169, 209, 169);
@@ -94,12 +88,17 @@ p{
 h1{
     border: 8px solid #fff;
     border-radius: 0.5rem;
-    max-width:63vh;
+    max-width:100vh;
     display:block;
     margin:auto;
-    font-size: large;
+    font-size: medium;
     text-align:center;
 }
 
-    
+.text-box h1 {
+    font-size:40px;
+    margin-bottom: 20px;
+    color: black;
+    padding: 10px; 
+}
 
